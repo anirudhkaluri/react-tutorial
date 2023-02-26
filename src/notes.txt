@@ -1,0 +1,12 @@
+
+
+
+
+   {
+                Array.from(blogs).forEach(element=>{
+                    <div className="blog-preview" key={element.id}>
+                        <h2>{element.title}</h2>
+                        <p>{element.author}</p>
+                    </div>
+                })
+             }
